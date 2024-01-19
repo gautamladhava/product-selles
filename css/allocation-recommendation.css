@@ -1,0 +1,71 @@
+.table-outer { padding: 20px; background-color: var(--white); position: relative;border: 1px solid var(--white3); box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06); border-radius: 4px;}
+.table-outer table{position:relative;}
+.table-outer table::after{position:absolute;content:""; background-size: 100%; background-image:url(../images/table-bg.png);top:0;left:0;right:0;height:100%;width:100%;opacity:0.6;}
+.table-outer .dataTables_info { display: inline-block; color:var(--black1); }
+.table-outer .dataTables_paginate { float: right; color: var(--black1); margin: 0 -4px; }
+.table-outer .dataTables_paginate a { color: var(--black1); padding: 0 4px; }
+.table-outer .dataTables_paginate a.disabled { color: var(--black6); cursor: auto; }
+.table-outer table.dataTable.no-footer { border-bottom: 1px solid  var(--white4); }
+.table-outer thead th { background-color: var(--green); color: var(--white); border-bottom: 0 !important; white-space: nowrap; }
+.table-outer tbody tr:nth-child(odd) { background-color: var(--white); }
+.table-outer tbody tr:nth-child(odd)  td { padding: 32px 17px; }
+.table-outer tbody tr:nth-child(even) { background-color: var(--white1); }
+.table-outer tbody tr:nth-child(even)  td { padding: 17px; }
+.table-outer td { z-index: 1; position: relative;}
+.table-outer th { z-index: 1; position: relative;}
+.table-outer tbody td:nth-child(1), .table-outer tbody td:nth-child(2), .table-outer tbody td:nth-child(3) { white-space: nowrap; }
+.table-outer thead th span { position: relative; display: inline-block; padding-right: 20px; top: -6px; cursor: pointer; }
+.table-outer thead th:before, .table-outer thead th:after { display: none !important; }
+.table-outer thead th.sorting span:before { content: ""; background-image: url(../images/short-icon.svg); width: 7px; height: 5px; background-size: contain; background-repeat: no-repeat; font-size: 11px; position: absolute; right: 5px; top: calc(50% - 2px); transform: translateY(-50%); color:  var(--black7);     }
+.table-outer thead th.sorting.sorting_asc span:before { opacity: 0.6; }
+.table-outer thead th.sorting span:after { content: ""; font-size: 11px; background-image: url(../images/short-icon.svg); width: 7px; height: 5px; background-size: contain; position: absolute; right: 5px; top: calc(50% + 2px); transform: translateY(-50%); color: var(--black7); transform: rotate(180deg); background-repeat: no-repeat; }
+.table-outer thead th.sorting.sorting_desc span:after { opacity: 0.6; }
+.update-section { padding: 60px 0; }
+.update-section .update-content-wrap { position: relative; padding: 30px; border: 1px solid var(--white3); box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.07); padding-top: 60px; }
+.update-section .update-content-wrap .img-wrap { position: absolute; top: 20px; right: 20px; }
+.update-section .update-content-wrap .img-wrap img { max-width: 130px; }
+.update-section .update-content-wrap .title { margin-bottom: 30px; }
+.update-section .update-content-wrap .title p { margin-bottom: 0; font-size: 14px; }
+.update-section .update-content-wrap p { margin-bottom: 20px; }
+.recommendtion-table-section { background-color: var(--white4) }
+.investor-details-section { padding: 80px 0; }
+.investor-details-section .investor-details-wrap { padding: 30px; border: 1px solid var(--white3); box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.07); }
+.investor-details-section .investor-details-wrap p { margin-bottom: 20px; font-size: 16px; }
+.auth-box .img-wrap { padding: 20px; border: 1px solid  var(--white5); border-radius: 4px; min-width: 400px; display: inline-block; }
+.investor-details-section .investor-details-wrap .auth-box p { margin-bottom: 10px; }
+.recommendtion-table-section .search-box { position: relative; }
+.recommendtion-table-section { padding: 70px 0; }
+.recommendtion-table-section .search-box img { position: absolute; top: 50%; transform: translateY(-50%); left: 10px; }
+.recommendtion-table-section .search-box input { background: var(--white); border: 1px solid var(--white3); box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06); border-radius: 4px; padding: 0 35px; height: 45px; min-width: 400px; }
+.recommendtion-table-section .search-box input:focus { border-color: var(--green); }
+.recommendtion-table-section .search-box input:focus-visible { outline: none; }
+.recommendtion-table-section .recommendtion-table-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 30px; }
+.recommendtion-table-section .dataTables_length { display: none; }
+.recommendtion-table-section .dataTables_filter { display: none; }
+.recommendtion-table-section .heading-title.niveshaay-section-title { margin-bottom: 0; }
+@media (max-width:991px) {
+    .update-section { padding: 50px 0; }
+    .recommendtion-table-section { padding: 50px 0; }
+    .investor-details-section { padding: 50px 0; }
+    .recommendtion-table-section .heading-title.niveshaay-section-title { margin-bottom: 20px; }
+    .recommendtion-table-section .recommendtion-table-heading { flex-direction: column; }
+    .recommendtion-table-section .heading-title.niveshaay-section-title { text-align: start; }
+    .recommendtion-table-section .recommendtion-table-heading { align-items: flex-start; }
+}
+@media (max-width:767px) {
+    .update-section .update-content-wrap .title { margin-bottom: 15px; }
+    .update-section .update-content-wrap p { margin-bottom: 10px; }
+    .update-section { padding: 30px 0; }
+    .recommendtion-table-section { padding: 30px 0; }
+    .investor-details-section { padding: 30px 0; }
+    .auth-box .img-wrap { min-width: auto; }
+    .recommendtion-table-section .search-box input { min-width: auto; }
+    .update-section .update-content-wrap { padding: 100px 15px 15px; }
+    .update-section .update-content-wrap .img-wrap { right: auto; left: 50%; transform: translatex(-50%); }
+    .table-outer { padding: 10px; padding-bottom: 30px; }
+    .table-outer .dataTables_paginate { float: none; margin-right: 0; }
+    .table-outer .dataTables_scroll { margin-bottom: 15px; }
+    .investor-details-section .investor-details-wrap { padding: 15px; }
+    .table-outer tbody tr:nth-child(odd)  td { padding: 17px 10px; }
+    .table-outer tbody tr:nth-child(even)  td { padding: 10px; }
+}

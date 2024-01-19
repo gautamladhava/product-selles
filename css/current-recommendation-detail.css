@@ -1,0 +1,28 @@
+.company-heading-section { background-color: var(--black8); min-height: 150px; display: flex; align-items: center; position: relative; justify-content: start; }
+.company-heading-section .logo-wrap { position: absolute; left: 50%; transform: translateX(-50%); height: 160px; width: 160px; border-radius: 50%; display: flex; align-items: center; justify-content: center; bottom: -48px; background: var(--white4); }
+.company-heading-section .back-btn { color: var(--white); font-size: 14px; }
+.company-heading-section .back-btn i { margin-right: 8px; }
+.company-detail-section { padding: 60px 0; background-color: var(--white4); }
+.company-detail-section .company-detail-wrap { padding: 20px; background: var(--white); border: 1px solid var(--white3); box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.06); border-radius: 4px; }
+.company-detail-section .company-detail-wrap .financial-year-detail { margin-bottom: 25px; border-bottom: 1px solid  var(--white6); padding-bottom: 25px; }
+.company-detail-section .company-detail-wrap .financial-year-detail .financial-year-heading { position: relative; cursor: pointer; }
+.company-detail-section .company-detail-wrap .financial-year-detail .financial-year-heading p { font-size: 18px; font-weight: 500; padding-right: 30px; }
+.company-detail-section .company-detail-wrap .financial-year-detail .financial-year-content { padding: 25px 0; }
+.company-detail-section .company-detail-wrap .financial-year-detail .financial-year-content .table-wrapper { overflow: auto; }
+.company-detail-section .company-detail-wrap .financial-year-detail .financial-year-heading::after { position: absolute; background-image: url(../images/down-arrow.svg); background-size: contain; background-repeat: no-repeat; height: 10px; width: 18px; right: 0; top: 10px; content: ""; transition: all 0.5s; }
+.company-detail-section .company-detail-wrap .financial-year-detail.open .financial-year-heading::after { transform: rotate(180deg); }
+.company-detail-section .table th { border-color: transparent; background-color: var(--white7); font-size: 14px; font-weight: 300; white-space: nowrap; padding: 20px; }
+.company-detail-section .table td { padding: 20px; }
+.company-detail-section .table td a { color: var(--blue); text-decoration: underline; transition: all 0.5s; }
+.company-detail-section .table td a:hover { text-decoration: none; }
+.company-detail-wrap .document-wrap { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; border-bottom: 1px solid var(--white6); padding-bottom: 25px; }
+.company-detail-wrap .document-wrap p { font-size: 18px; font-weight: 500; }
+.company-detail-wrap .document-wrap a img { width: 17px; min-width: 17px; height: 22px; }
+.company-detail-wrap .document-wrap a { width: 17px; height: 22px; }
+@media (max-width:991px) {
+    .company-heading-section .logo-wrap { height: 120px; width: 120px; padding: 20px; bottom: -60px; }
+}
+@media (max-width:767px) {
+    .company-detail-section .company-detail-wrap .financial-year-detail .financial-year-heading p { font-size: 16px; }
+    .company-detail-wrap .document-wrap p { font-size: 16px; }
+}

@@ -1,0 +1,35 @@
+.contact-us-section { padding: 40px 0; }
+.contact-us-section .contact-us-content-wrapper { display: flex; border-radius: 20px; padding: 40px; background-color: var(--white1); }
+.contact-us-section .contact-us-content-wrapper .form-wrapper { flex: 1; padding-right: 50px; }
+.contact-us-section .contact-us-content-wrapper button { outline: 0 !important; }
+.contact-us-section .contact-us-content-wrapper .form-group label { display: none; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper { max-width: 370px; flex: 0 0 370px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .title-wrapper { padding: 0 0 30px; border-bottom: none; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .title-wrapper h2 { color: var(--black1); line-height: 0.92; font-size: 24px; font-weight: 400; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .get-in-touch-content li { display: flex; margin-bottom: 20px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .get-in-touch-content li span { color: var(--black1); margin-right: 10px; text-align: center; min-width: 24px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .get-in-touch-content li a { color: var(--black1); font-family: 'Public Sans', sans-serif; font-size: 15px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .get-in-touch-content li a:hover { text-decoration: underline; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .get-in-touch-content li address { color: var(--black1); font-style: normal; font-family: 'Public Sans', sans-serif; font-size: 15px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper h3 { font-size: 18px; font-weight: 500; color: var(--black1); margin-bottom: 15px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .social-icon-wrapper { display: flex; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .social-icon-wrapper li+li { margin-left: 10px; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .social-icon-wrapper li a { height: 32px; width: 32px; border: 1px solid var(--green); border-radius: 50%; position: relative; transition: all 0.3s; display: flex; justify-content: center; align-items: center; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .social-icon-wrapper li a:hover { background-color: var(--green); }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .social-icon-wrapper li a span { color: var(--green); transition: all 0.3s; }
+.contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .social-icon-wrapper li a:hover span { color: var(--white); }
+@media (max-width:1024px) {
+    .contact-us-section .contact-us-content-wrapper { padding: 25px; }
+}
+@media(max-width:991px) {
+    .contact-us-section .contact-us-content-wrapper { flex-wrap: wrap-reverse; }
+    .contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper { max-width: 100%; flex: 0 0 100%; margin-bottom: 35px; }
+    .contact-us-section .contact-us-content-wrapper .form-wrapper { padding: 0; }
+}
+@media(max-width:767px) {
+    .contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .content-wrapper .get-in-touch-content li { margin-bottom: 10px; }
+    .contact-us-section .contact-us-content-wrapper .get-in-touch-wrapper .title-wrapper { padding: 0 0 20px; }
+}
+@media(max-width:575px) {
+    .contact-us-section .contact-us-content-wrapper { padding: 20px; }
+}

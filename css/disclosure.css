@@ -1,0 +1,20 @@
+.disclosuer-heading-section { padding: 50px 0; }
+.disclosuer-section { padding-bottom: 30px; }
+.disclosuer-section .table-wrapper { overflow: auto; }
+.disclosuer-section .table th { border-color: transparent; background-color: var(--white7); font-size: 18px; font-weight: 500; white-space: nowrap; padding: 20px; text-align: center; }
+.disclosuer-section .table td { padding: 20px; font-size: 18px; text-align: center; }
+.disclosuer-section .table td a { color: var(--blue); text-decoration: underline; transition: all 0.5s; }
+.disclosuer-section .table td a:hover { text-decoration: none; }
+.niveshaay-disclosure-title { text-align: center; font-size: 45px; font-weight: 700; margin-top: 20px; margin-bottom: 30px; color: var(--black1); }
+.disclosuer-section .disclosure-part p { font-size: 18px; margin-bottom: 15px; }
+.disclosuer-section .disclosure-part .img-content-wrap { display: flex; align-items: center; }
+.disclosuer-section .disclosure-bold-content { font-size: 16px; }
+.disclosuer-section  .disclosure-content { font-size: 16px; margin-bottom: 25px; }
+.disclosuer-section  .disclosure-content p { margin-bottom: 15px; }
+@media (max-width:767px) {
+    .disclosuer-section .table td { font-size: 16px; padding: 10px; }
+    .disclosuer-section .table th { font-size: 16px; padding: 10px; }
+    .niveshaay-disclosure-title { font-size: 28px; margin-bottom: 10px; }
+    .disclosuer-section .disclosure-part p { font-size: 16px; }
+}
+

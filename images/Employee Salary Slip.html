@@ -1,0 +1,136 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Employee Management - Login
+</title><link href="css/stylesheet.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <div id="wrapper" class="login">
+        <!--wrapper start-->
+        <form name="form1" method="post" action="./Login.aspx?Sout=session" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEyNTY2MTQ1MQ9kFgICAw9kFgJmDw8WAh4EVGV4dAUzWW91ciBzZXNzaW9uIGhhcyBleHBpcmVkLiBQbGVhc2UgbG9naW4gdG8gY29udGludWUuZGRkpkkl7lRuFtKm09y3V0bAw7tzOEbNlB1GuK4aHVmAzoo=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/Ems/WebResource.axd?d=bT3U3mR_QfrKxERgg_PD8OZe6n6AvtipAOy2Ql-AYYXimw3QLPbYJI9FoktQTElCyTamKcPJpLE-yaG81LLcPpA8SsJU7RV-g3L-lKlLVrI1&amp;t=637952939680354440" type="text/javascript"></script>
+
+
+<script src="/Ems/WebResource.axd?d=a9ugRu3eYvs76A5HZSHCNv99RKIXQ_WNWF7AYi-JlhkoGGIb_ow7XacCD55eu7qgQILAmH2to2R5K-rucKFk9fcNueNoNMDwrQ2HyJQ_OE01&amp;t=637952939680354440" type="text/javascript"></script>
+<script src="/Ems/WebResource.axd?d=S8p0CbdFPQZ2liOdeL81r41o7zMSOM0lXUwyLY0T0E2QOXaIm2ZacNbIxHhsv1UPF0I9C8Xh0_U8vLVdyrpNtvYew9SK_VBH05P0H1Xd_D41&amp;t=637952939680354440" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6064A82A" />
+</div>
+        <div class="loginlogo">
+            <img src="images/logo.png" alt="" /></div>
+        <div class="loginarea">
+            <h1>Welcome to Employee Management System</h1>
+            <div class="login_content">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="150"><img src="images/login_user.png" alt="" /></td>
+                        <td valign="top">
+                            <table width="100%" border="0" cellspacing="9" cellpadding="0">
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td><h2>Login Here!</h2></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center"><span id="lblmsg" class="error">Your session has expired. Please login to continue.</span></td>
+                                </tr>
+                                <tr>
+                                    <td align="right">Username:</td>
+                                    <td><input name="txtusername" type="text" id="txtusername" style="width: 140px;" /><span id="RequiredFieldValidator1" class="error" style="color:Red;visibility:hidden;">*</span></td>
+                                </tr>
+                                <tr>
+                                    <td align="right">Password:</td>
+                                    <td><input name="txtpassword" type="password" maxlength="50" id="txtpassword" style="width: 140px;" /><span id="RequiredFieldValidator2" class="error" style="color:Red;visibility:hidden;">*</span></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td style="padding-top: 5px;"><input type="submit" name="btnLogin" value="Login" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnLogin" class="inputbutton" />&nbsp; <a href="ForgotPassword.aspx" class="link_password">Forgot Password?</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footer"><!--footer start--><p>Copyright &copy; 2024 TatvaSoft. All Rights Reserved.</p><!--footer end--></div>
+        
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator2"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txtusername";
+RequiredFieldValidator1.errormessage = "*";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "txtpassword";
+RequiredFieldValidator2.errormessage = "*";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        WebForm_AutoFocus('txtusername');//]]>
+</script>
+</form>
+        <!--wrapper end-->
+    </div>
+</body>
+</html>

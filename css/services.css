@@ -1,0 +1,131 @@
+.services-tabbing-section { padding: 60px 0 40px; }
+.services-tabbing-section .tab-heading-block { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; border-bottom: 1px solid rgba(49, 49, 49, 0.1); }
+.services-tabbing-section .tab-heading-block>li {  height: 100%; position: relative; }
+.services-tabbing-section .service-tab-wrapper .tab-inner-detail h2 { color: var(--black1); font-size: 20px; font-weight: 500; margin-bottom: 10px; }
+.services-tabbing-section .tab-heading-block li>a { font-size: 20px; font-weight: 500; line-height: 1.1; padding: 30px 22px; transition: 0.5s all; display: inline-block; color: var(--black1); width: 100%; position: relative; text-align: center; }
+.services-tabbing-section .tab-heading-block li a .down-arrow-icon { display: none; position: absolute; right: 20px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; }
+.services-tabbing-section .tab-heading-block li.active>a { background-color: var(--green); color: var(--white); border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.services-tabbing-section .tab-heading-block a em { position: relative; min-height: 64px; display: flex; justify-content: center; margin-bottom: 17px; }
+.services-tabbing-section .tab-heading-block a img { position: absolute; transition: 0.5s all; height: 64px; width: auto; }
+.services-tabbing-section .tab-heading-block a .tab-icon { opacity: 1; visibility: visible; }
+.services-tabbing-section .tab-heading-block li.active .tab-icon-hover { opacity: 1; visibility: visible; }
+.services-tabbing-section .tab-heading-block li.active .tab-icon { opacity: 0; visibility: hidden; }
+.services-tabbing-section .tab-heading-block li.active>a { color: var(--white); }
+.services-tabbing-section .tab-heading-block a .tab-icon-hover { opacity: 0; visibility: hidden; }
+.services-tabbing-section .list-catagory-section { padding: 0; }
+.services-tabbing-section .tab-content-block .tab-content-inner { display: none; }
+.services-tabbing-section .tab-content-block .tab-content-inner.active { display: block; }
+.services-tabbing-section .service-tab-wrapper .tab-inner-detail p { margin-bottom: 10px; }
+.services-tabbing-section .service-tab-wrapper .tab-inner-detail p, .services-tabbing-section .service-tab-wrapper .tab-inner-detail ul li, .services-tabbing-section .service-tab-wrapper .tab-inner-detail~p { color: var(--dark_black1); line-height: 1.75; font-weight: normal; }
+.services-tabbing-section ul.green-dot-listing li+li { margin-top: 10px; }
+.services-tabbing-section ul.green-dot-listing { margin-bottom: 10px; }
+.services-tabbing-section ul.green-dot-listing li span { font-weight: 600; }F
+.services-tabbing-section ul.green-dot-listing ol { list-style-type: lower-roman; }
+.services-tabbing-section ul.green-dot-listing ol li:before, .services-tabbing-section ul.green-dot-listing ul li:before { content: none; }
+.service-listing-section p.has-different-style {  text-align: center; color: var(--dark_black1); margin: 10px 0 0; }
+.service-listing-section p.has-different-style a { text-decoration: none; }
+.services-tabbing-section .list-inner-wrapper { opacity: 0; height: 466px; transition: 0.5s all; }
+.services-tabbing-section .niveshaay-pick-smallcase .smallcase-grid { opacity: 0; height: 605px; transition: 0.5s all; }
+.services-tabbing-section .tab-content-inner.opacity .list-inner-wrapper { opacity: 1; height: auto; }
+.services-tabbing-section .tab-content-inner.opacity.niveshaay-pick-smallcase .smallcase-grid { opacity: 1; height: auto; }
+.services-tabbing-section p.subscription-fees-text { position: relative; max-width: 503px; margin: 22px auto 0; text-align: center; background-color:  var(--light-white2); padding: 13px 15px 17px 30px; border: 1px solid var(--white3); border-radius: 3px; overflow: hidden; font-size: 20px; line-height: 1.4; color: var(--black1); }
+.services-tabbing-section p.subscription-fees-text span { font-weight: 600; }
+.services-tabbing-section p.subscription-fees-text:before { position: absolute; content: ''; top: 0; left: 0; height: 100%; width: 6px; background-color: var(--green); }
+.services-tabbing-section .list-catagory-section .list-catagory-wrapper { margin-top: 25px; }
+.service-listing-section { padding: 60px 0; }
+.service-listing-section .service-list-wrap { margin-bottom: -40px; }
+.service-listing-section .service-item p { font-weight: 400; line-height: 1.75; margin: 0 0 10px; }
+.service-listing-section .service-item { margin: 0 0 40px; padding: 40px; }
+.service-listing-section .service-item.has-green-bg { background-color: var(--white1); border-radius: 20px; }
+.service-listing-section .service-item .service-title-block { display: flex; align-items: flex-start; }
+.service-listing-section .service-item .service-title-block .image-block { flex: 0 0 110px; max-width: 110px; }
+.service-listing-section .service-item .service-title-block .service-content { flex: 0 0 calc(100% - 110px); padding-left: 30px; }
+.service-listing-section .service-item .service-title-block .service-content h2 { text-align: left; }
+.service-listing-section .service-item .service-title-block .service-content h3 { font-size: 20px; font-weight: 400; margin: 0 0 10px; }
+.service-listing-section ul.green-dot-listing { margin-left: 30px; }
+.service-listing-section .list-catagory-section { padding: 35px 0 0 0; }
+.service-listing-section .subscription-fees-block { display: flex; align-items: center; margin-top: 20px; }
+.service-listing-section p.subscription-fees-text { position: relative; max-width: 503px; text-align: center; background-color: var(--white1); padding: 14px 26px; border: 1px solid var(--green); border-radius: 3px; overflow: hidden; font-size: 18px; line-height: 1; color: var(--black1); margin-right: 15px; margin-bottom: 0; }
+.service-listing-section p.subscription-fees-text span { font-weight: 600; margin-left: 6px; }
+.service-listing-section p.subscription-fees-text:before { position: absolute; content: ''; top: 0; left: 0; height: 100%; width: 6px; background-color: var(--green); }
+.service-listing-section p.has-different-style { text-align: left; color: var(--dark_black1); margin: 20px 0 0; }
+.service-listing-section p.has-different-style a { text-decoration: none; }
+.service-listing-section .list-catagory-section .list-catagory-wrapper { max-width: 960px; }
+.service-listing-section .list-catagory-section.niveshaay-research-block.has-left-content .list-catagory-wrapper .list-wrapper .list-inner-wrapper .list-item-wrapper { flex: 0 0 25%; max-width: 25%; }
+.service-listing-section .smallcase-grid { margin: 0 -15px; }
+.service-listing-section .service-item .niveshaay-pick-smallcase .smallcase-grid .grid-item { max-width: 100%; }
+
+/*media-css*/
+@media (max-width:1280px) {
+    .services-tabbing-section .list-catagory-wrapper, .services-tabbing-section .niveshaay-pick-smallcase .smallcase-grid { padding-bottom: 60px; }
+    .services-tabbing-section .niveshaay-pick-smallcase .slick-dots { bottom: 20px; }
+}
+@media (max-width:1199px) {
+    .service-listing-section p.subscription-fees-text { font-size: 18px; }
+    .services-tabbing-section { padding: 80px 0; }
+    .services-tabbing-section .tab-heading-block li>a { font-size: 18px; padding: 15px; }
+    .services-tabbing-section .list-catagory-wrapper, .services-tabbing-section .niveshaay-pick-smallcase .smallcase-grid { padding-bottom: 55px; }
+    .service-listing-section .list-catagory-section.niveshaay-research-block.has-left-content .list-catagory-wrapper .list-wrapper .list-inner-wrapper .list-item-wrapper { flex: 0 0 33.33%; max-width: 33.33%; }
+}
+@media (max-width:1024px) {
+    .service-listing-section ul.green-dot-listing { margin-left: 4px; }
+    .service-listing-section { padding: 40px 0; }
+    .service-listing-section .service-item .service-title-block .image-block { flex: 0 0 90px; max-width: 90px; }
+    .service-listing-section .service-item .service-title-block .service-content { flex: 0 0 calc(100% - 90px); max-width: calc(100% - 90px); }
+}
+@media(min-width:992px) {
+    .services-tabbing-section .tab-heading-block li:hover>a { background-color: var(--green); color: var(--white); border-top-left-radius: 4px; border-top-right-radius: 4px; }
+    .services-tabbing-section .tab-heading-block li:hover a { color: var(--white); }
+    .services-tabbing-section .tab-heading-block a .tab-icon-hover { opacity: 0; visibility: hidden; }
+    .services-tabbing-section .tab-heading-block li:hover .tab-icon-hover { opacity: 1; visibility: visible; }
+    .services-tabbing-section .tab-content-block .tab-content-inner p.has-different-style a:hover { text-decoration: none; }
+    .service-listing-section p.has-different-style a:hover { text-decoration: none; }
+}
+@media(max-width:991px) {
+    .service-listing-section p.subscription-fees-text { font-size: 16px; }
+    .services-tabbing-section { padding: 50px 0; }
+    .services-tabbing-section .tab-heading-block .tab-content-inner { display: none; padding-bottom: 20px; }
+    .services-tabbing-section .tab-heading-block { display: block; border-bottom: none; }
+    .services-tabbing-section .tab-heading-block>li:not(:last-child) { border-bottom: 1px solid rgba(49, 49, 49, 0.1); }
+    .services-tabbing-section .service-tab-wrapper .tab-inner-detail h2 { font-size: 18px; }
+    .services-tabbing-section .tab-heading-block li.active>a { background-color: var(--white); border-radius: inherit; color: inherit; }
+    .services-tabbing-section .tab-heading-block a em { margin-bottom: 0; min-width: 45px; height: 45px; margin-right: 10px; min-height: inherit; }
+    .services-tabbing-section .tab-heading-block a img { height: 45px; }
+    .services-tabbing-section .tab-heading-block li.active>a { background-color: var(--green); color: var(--white); border-radius: 4px; }
+    .services-tabbing-section .tab-heading-block li a span svg { transition: 0.5s all; }
+    .services-tabbing-section .tab-heading-block li.active a span svg { transform: rotate(180deg); }
+    .services-tabbing-section .tab-heading-block li.active a span svg .down-arrow-svg { fill: var(--white); }
+    .services-tabbing-section .tab-heading-block .tab-content-inner { margin-top: 20px; }
+    .services-tabbing-section .tab-heading-block .tab-content-inner.active { display: block; }
+    .services-tabbing-section .tab-heading-block li>a { max-width: 100%; display: flex; align-items: center; text-align: inherit; font-size: 16px; padding: 25px 40px 25px 25px; }
+    .services-tabbing-section .tab-heading-block li a .down-arrow-icon { display: block; }
+    .services-tabbing-section .list-catagory-wrapper, .services-tabbing-section .niveshaay-pick-smallcase .smallcase-grid { padding-bottom: 40px; }
+    .services-tabbing-section .niveshaay-pick-smallcase .slick-dots { bottom: 10px; }
+    .services-tabbing-section .list-catagory-section.niveshaay-research-block .slick-dots { bottom: -40px; }
+}
+@media(max-width:767px) {
+    .services-tabbing-section .tab-heading-block a em { min-width: 25px; height: 25px; }
+    .services-tabbing-section .tab-heading-block a img { height: 25px; }
+    .service-listing-section .service-item { padding: 25px; margin: 0 0 0; }
+    .service-listing-section .service-item .service-title-block { flex-direction: column; }
+    .service-listing-section .service-item .service-title-block .image-block { margin: 0 0 15px; }
+    .service-listing-section .service-item .service-title-block .service-content { padding-left: 0; flex: 0 0 100%; max-width: 100%; }
+    .service-listing-section .service-item .service-title-block .service-content h3 { font-size: 18px; }
+    .service-listing-section .smallcase-grid { margin: 0 0 -30px; }
+    .service-listing-section .service-item  .smallcase-grid .grid-item { flex: 0 0 100%; max-width: 100%; padding: 0; margin: 0 0 30px; }
+    .service-listing-section .subscription-fees-block { flex-direction: column; align-items: flex-start; justify-content: flex-start; }
+    .service-listing-section p.subscription-fees-text { margin-bottom: 15px; line-height: 1.75; margin-right: 0; padding: 7px 11px; }
+    .service-listing-section .list-catagory-section.niveshaay-research-block.has-left-content .list-catagory-wrapper .list-wrapper .list-inner-wrapper .list-item-wrapper { flex: 0 0 50%; max-width: 50%; }
+}
+@media (max-width:575px) {
+    .services-tabbing-section .tab-heading-block li>a { font-size: 16px; }
+    .services-tabbing-section .list-catagory-wrapper { padding-bottom: 50px; }
+    .services-tabbing-section .list-catagory-section.niveshaay-research-block .slick-dots { bottom: -45px; }
+    .services-tabbing-section .list-catagory-section.niveshaay-research-block .slick-list { margin: 0; }
+    .services-tabbing-section .niveshaay-pick-smallcase .smallcase-grid { padding-bottom: 25px; }
+    .service-listing-section .list-catagory-section.niveshaay-research-block.has-left-content .list-catagory-wrapper .list-wrapper .list-inner-wrapper .list-item-wrapper { flex: 0 0 100%; max-width: 100%; }
+    .service-listing-section p.subscription-fees-text { width: 100%; }
+}
+@media(max-width:425px) {
+    .service-listing-section p.subscription-fees-text span { display: block; }
+}

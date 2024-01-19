@@ -1,0 +1,39 @@
+/*signup-page*/
+.pre-login-page { padding: 80px 0; }
+.pre-login-page .form-wrapper { max-width: 930px; margin: 0 auto; padding: 0 15px; }
+.pre-login-page .form-group label { display: none; }
+.pre-login-page .form-inner-wrapper { background-color: var(--white1); padding: 40px; border-radius: 20px; }
+.pre-login-page .form-wrapper .form-group.width-75 { text-align: center; }
+.pre-login-page .form-wrapper .form-group.width-75 .form-control { width: 75%; }
+.pre-login-page .form-group .password-help { font-size: 16px; font-weight: normal; }
+.pre-login-page .form-group.form-btn-wrapper { display: flex; justify-content: center; }
+.pre-login-page .form-group.form-btn-wrapper .btn + .btn { margin-left: 30px; }
+.pre-login-page .form-group.form-btn-wrapper .btn { min-width: 124px; }
+.pre-login-page .checkbox-wrapper .checkbox-inner input { opacity: 0; position: absolute; z-index: 1; width: 100% !important; height: 100% !important; left: 0; top: 0; margin: 0; cursor: pointer; }
+.pre-login-page .form-inner-wrapper .form-group.has-checkbox { position: relative; display: flex; justify-content: space-between; }
+.pre-login-page .form-inner-wrapper .form-group.has-checkbox .form-control { margin-top: 0; }
+.pre-login-page .checkbox-wrapper .checkbox-inner { position: relative; }
+.pre-login-page .checkbox-wrapper .checkbox-inner input { opacity: 0; position: absolute; z-index: 1; width: 100% !important; height: 100% !important; left: 0; top: 0; margin: 0; cursor: pointer; }
+.pre-login-page .checkbox-wrapper .checkbox-inner label { display: inline-block; padding-left: 30px; margin: 0; font-size: 16px; line-height: 18px; }
+.pre-login-page .checkbox-wrapper .checkbox-inner label:before { content: ''; width: 18px; height: 18px; left: 0; position: absolute; border: 1px solid var(--green); border-radius: 2px; }
+.pre-login-page .checkbox-wrapper .checkbox-inner label:after { border: 1px solid var(--white); border-width: 0px 2px 2px 0; content: ""; position: absolute; opacity: 0; left: 6px; top: 5px; width: 6px; height: 10px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+.pre-login-page .checkbox-wrapper .checkbox-inner input:checked+label:before { background-color: var(--green); }
+.pre-login-page .checkbox-wrapper .checkbox-inner input:checked+label:after { opacity: 1; }
+
+/*media-css*/
+@media (max-width:1024px) {
+    .pre-login-page { padding: 60px 0; }
+    .pre-login-page .form-inner-wrapper { padding: 25px; }
+}
+@media (max-width:767px) {
+    .pre-login-page .form-group.form-btn-wrapper .btn + .btn { margin-left: 18px; }
+}
+@media (max-width:575px) {
+    .pre-login-page .form-inner-wrapper { padding: 20px; }
+    .pre-login-page .form-wrapper .form-group.width-75 .form-control { width: 100%; }
+}
+@media (max-width:475px) {
+    .pre-login-page .form-inner-wrapper .form-group.form-btn-wrapper { justify-content: flex-start; }
+    .pre-login-page .form-inner-wrapper p { font-size: 20px; }
+    .pre-login-page .form-inner-wrapper .site-logo { width: 140px; }
+}
